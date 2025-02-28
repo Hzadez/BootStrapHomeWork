@@ -8,14 +8,14 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 7px 44px;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">PB503 Cinema</a>
+          <a class="navbar-brand" href="./index.html">PB503 Cinema</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -39,80 +39,8 @@
           </div>
         </div>
       </nav>
-      <div class="Cards" style="display: flex; justify-content: center;">
-        <div class="card" style=" width: 300px;">
-            <img style="height: 450px;" src="./Underthe.jpeg" class="card-img-top" alt="UnderTheDome Img">
-            <div class="card-body">
-              <h5 class="card-title">Under The Dome</h5>
-              <p>Premiere: 2013-06-24</p>
-              <div class="Table olan">
-                <table>
-                  <tr  style="display:grid;">
-                    <td>IMDB Rating: 6.5</td>
-                    <td>Genre: Drama</td>
-                    <td>Language: English</td>
-                  </tr>
-                </table>
-              </div>
-              <a href="#" class="btn btn-primary">Go To Website</a>
-              <a style="background-color: 198754;" href="#" class="btn btn-primary">Go To Detail</a>
-            </div>
-          </div>
-          <div class="card" style=" width: 300px;">
-            <img style="height: 450px;" src="./PersonThe.jpeg" class="card-img-top" alt="Person Of Interest Img">
-            <div class="card-body">
-              <h5 class="card-title">Person Of Interest</h5>
-              <p>Premiere: 2011-09-22</p> 
-              <div class="Table olan">
-                <table>
-                  <tr  style="display:grid;">
-                    <td>IMDB Rating: 8.8</td>
-                    <td>Genre: Action</td>
-                    <td>Language: English</td>
-                  </tr>
-                </table>
-              </div>
-              <a href="#" class="btn btn-primary">Go To Website</a>
-              <a style="background-color: 198754;" href="#" class="btn btn-primary">Go To Detail</a>
-            </div>
-          </div>
-          <div class="card" style=" width: 300px;">
-            <img style="height: 450px;" src="./Bitten.jpeg" class="card-img-top" alt="Bitten Img">
-            <div class="card-body">
-              <h5 class="card-title">Bitten</h5>
-              <p>Premiere: 2014-04-11</p>
-              <div class="Table olan">
-                <table>
-                  <tr  style="display:grid;">
-                    <td>IMDB Rating: 7.4</td>
-                    <td>Genre: Drama</td>
-                    <td>Language: English</td>
-                  </tr>
-                </table>
-              </div>
-              <a href="#" class="btn btn-primary">Go To Website</a>
-              <a style="background-color: 198754;" href="#" class="btn btn-primary">Go To Detail</a>
-            </div>
-          </div>
-          <div class="card" style=" width: 300px;">
-            <img style="height: 450px;" src="./Arrow.jpeg" class="card-img-top" alt="Arrow Img">
-            <div class="card-body">
-              <h5 class="card-title">Arrow</h5>
-              <p>Premiere: 2012-10-10</p>
-              <div class="Table olan">
-                <table>
-                  <tr  style="display:grid;">
-                    <td>IMDB Rating: 7.4</td>
-                    <td>Genre: Drama</td>
-                    <td>Language: English</td>
-                  </tr>
-                </table>
-              </div>
-              <a href="#" class="btn btn-primary">Go To Website</a>
-              <a style="background-color: 198754;" href="#" class="btn btn-primary">Go To Detail</a>
-            </div>
-          </div>
-      </div>
+      <div class="row" style="display: flex; justify-content: center;" id="data-container">
+    </div>
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>      
@@ -126,5 +54,6 @@
         </footer>
       </div>
 </body>
+<script src="./index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
